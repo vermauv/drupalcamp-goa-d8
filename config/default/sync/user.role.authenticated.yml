@@ -1,0 +1,24 @@
+uuid: 862a5539-1ace-49c3-9af3-9599f3395aad
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'create session content'
+  - 'delete own session content'
+  - 'edit own session content'
+  - 'search content'
+  - 'use text format basic_html'
+  - 'view conditional fields'
+  - 'view field_sponsorship_category'
+  - 'view field_video'
+  - 'view own unpublished content'

@@ -1,0 +1,21 @@
+uuid: 6e2427eb-2194-4369-8dcf-d83175ab5af9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_benefactions
+    - node.type.session
+  module:
+    - text
+id: node.session.field_benefactions
+field_name: field_benefactions
+entity_type: node
+bundle: session
+label: Benefactions
+description: 'Let the attendees know what are you offering to them to take back from your session'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

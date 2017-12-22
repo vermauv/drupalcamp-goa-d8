@@ -1,0 +1,15 @@
+uuid: 90a05c9e-e1cc-42e2-b164-90bfce163ea4
+langcode: en
+status: true
+dependencies: {  }
+name: screen
+label: screen
+effects:
+  85be4269-6b39-40a1-a7fe-192cac800d11:
+    uuid: 85be4269-6b39-40a1-a7fe-192cac800d11
+    id: image_scale
+    weight: 1
+    data:
+      width: 1024
+      height: 768
+      upscale: true

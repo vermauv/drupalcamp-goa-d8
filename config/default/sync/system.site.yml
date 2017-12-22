@@ -1,0 +1,14 @@
+uuid: a7e2e7d4-99d1-41d2-921e-151065515a2d
+name: drupalcampgoa
+mail: vermaudit28@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

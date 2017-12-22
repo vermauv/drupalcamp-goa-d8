@@ -1,0 +1,38 @@
+uuid: 864ca113-9844-4e72-9f63-f527c4d31320
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.album.body
+    - field.field.node.album.field_gallery_image
+    - node.type.album
+  module:
+    - image
+    - text
+    - user
+id: node.album.full
+targetEntityType: node
+bundle: album
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_gallery_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,9 @@
+uuid: 1fd66d7d-aa39-4ac0-b219-bacebac59418
+langcode: en
+status: true
+dependencies: {  }
+name: 'Sponsorship Categories'
+vid: sponsorship_categories
+description: ''
+hierarchy: 0
+weight: 0

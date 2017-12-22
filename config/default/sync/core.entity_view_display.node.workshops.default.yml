@@ -1,0 +1,26 @@
+uuid: 278a1815-06d0-4f71-bf5f-b6e5c64fa7ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.workshops.body
+    - node.type.workshops
+  module:
+    - text
+    - user
+id: node.workshops.default
+targetEntityType: node
+bundle: workshops
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

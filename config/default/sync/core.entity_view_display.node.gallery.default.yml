@@ -1,0 +1,29 @@
+uuid: f2950a01-f958-49c1-b285-29358196cd0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery.field_test
+    - node.type.gallery
+  module:
+    - user
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  field_test:
+    weight: 101
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

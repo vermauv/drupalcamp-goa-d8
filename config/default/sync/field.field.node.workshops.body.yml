@@ -1,0 +1,22 @@
+uuid: da0919ed-172b-4287-a4c3-7550441980f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.workshops
+  module:
+    - text
+id: node.workshops.body
+field_name: body
+entity_type: node
+bundle: workshops
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

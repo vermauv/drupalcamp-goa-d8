@@ -1,0 +1,16 @@
+uuid: a6e6ca41-6069-4191-9c7d-209236e127b1
+langcode: en
+status: true
+dependencies: {  }
+id: panel_member
+label: 'Panel Board Member'
+weight: 4
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'administer nodes'
+  - 'edit own comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'view the administration theme'

@@ -1,0 +1,12 @@
+uuid: 84e7f6b1-912d-4b7e-871f-8a36d9d2b020
+langcode: en
+status: true
+dependencies: {  }
+id: sponsors
+label: Sponsors
+recipients:
+  - gaurang.agrawal@srijan.net
+reply: ''
+weight: 0
+message: ''
+redirect: ''

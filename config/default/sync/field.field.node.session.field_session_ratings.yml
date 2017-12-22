@@ -1,0 +1,24 @@
+uuid: f8ca3e91-4456-40c9-9c25-48000223fb3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_session_ratings
+    - node.type.session
+  module:
+    - starrating
+id: node.session.field_session_ratings
+field_name: field_session_ratings
+entity_type: node
+bundle: session
+label: 'Session Ratings'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings:
+  max_value: '10'
+field_type: starrating

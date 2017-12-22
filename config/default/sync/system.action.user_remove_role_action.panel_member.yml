@@ -1,0 +1,14 @@
+uuid: 589257bf-ea7a-4190-a2fd-ff26326573c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.panel_member
+  module:
+    - user
+id: user_remove_role_action.panel_member
+label: 'Remove the Panel Member role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: panel_member

@@ -1,0 +1,9 @@
+uuid: 63c699bb-a956-42df-b672-e6ca1a0c9939
+langcode: en
+status: true
+dependencies: {  }
+name: 'Experience Level'
+vid: experience_level
+description: 'Session Difficulty'
+hierarchy: 0
+weight: 0

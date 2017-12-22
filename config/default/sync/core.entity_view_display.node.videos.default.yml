@@ -1,0 +1,46 @@
+uuid: a5f8a6df-48bd-4465-acd4-a6a48861293e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.videos.body
+    - field.field.node.videos.field_video
+    - node.type.videos
+  module:
+    - text
+    - user
+    - youtube
+id: node.videos.default
+targetEntityType: node
+bundle: videos
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_video:
+    weight: 102
+    label: hidden
+    settings:
+      youtube_size: responsive
+      youtube_width: ''
+      youtube_height: ''
+      youtube_showinfo: true
+      youtube_autohide: true
+      youtube_iv_load_policy: true
+      youtube_autoplay: false
+      youtube_loop: false
+      youtube_controls: false
+    third_party_settings: {  }
+    type: youtube_video
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

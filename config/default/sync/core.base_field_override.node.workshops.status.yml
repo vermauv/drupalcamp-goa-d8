@@ -1,0 +1,22 @@
+uuid: d9683b4d-b38d-43aa-b9a5-58747f06677d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.workshops
+id: node.workshops.status
+field_name: status
+entity_type: node
+bundle: workshops
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

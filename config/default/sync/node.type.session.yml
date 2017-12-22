@@ -1,0 +1,19 @@
+uuid: 0e09776f-8854-47f7-a131-7703ac57c4a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - admin
+      - main
+    parent: 'main:'
+name: Session
+type: session
+description: 'Will have the details about Drupal Camp Sessions.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

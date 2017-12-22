@@ -1,0 +1,14 @@
+uuid: 3c242865-f8ac-4ec1-9b46-6e755c20c94d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.panel_member
+  module:
+    - user
+id: user_add_role_action.panel_member
+label: 'Add the Panel Member role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: panel_member

@@ -1,0 +1,22 @@
+uuid: 85c7f3cb-f1c7-44d2-846a-bb7e5d191ee8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tshirt_size
+id: taxonomy_term.tshirt_size.default
+targetEntityType: taxonomy_term
+bundle: tshirt_size
+mode: default
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true
