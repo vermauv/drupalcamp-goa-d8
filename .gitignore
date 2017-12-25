@@ -8,7 +8,7 @@
 # name; updating Drupal core will not override your custom .gitignore file.
 
 # Ignore core and vendor when managing dependencies with Composer.
-core
+#core
 vendor
 
 # Ignore configuration files that may contain sensitive information.
