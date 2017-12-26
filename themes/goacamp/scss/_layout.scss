@@ -1,0 +1,13 @@
+.region-header {
+    @include flex(row);
+    position: relative;
+}
+.page-wrapper {
+    max-width: 1280px;
+    width: 100%;
+}
+.header {
+    padding: 15px;
+    min-height: 500px;
+    background: url("../images/banner.png") no-repeat scroll 0 0 transparent;
+}

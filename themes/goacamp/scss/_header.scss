@@ -1,0 +1,26 @@
+.menu--main {
+    display: flex;
+    align-items: center;
+    .menu {
+        @include flex(row);
+        margin: 0;
+    }
+}
+
+.block-system-branding-block {
+    display: flex;
+    align-items: center;
+}
+
+.region-header {
+    .menu--account {
+        position: absolute;
+        right: 0;
+    }
+}
+
+ul {
+    li {
+        margin-right: 1em;
+    }
+}

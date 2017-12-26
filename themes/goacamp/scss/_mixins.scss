@@ -1,0 +1,17 @@
+// ==== flex related ====
+//for displaying flex with optional direction
+@mixin flex($direction: row) {
+    display: flex;
+    @if ($direction==col) {
+        flex-direction: column;
+    }
+    @else if ($direction==row-r) {
+        flex-direction: row-reverse;
+    }
+    @else if ($direction==col-r) {
+        flex-direction: column-reverse;
+    }
+    @else {
+        flex-direction: $direction;
+    }
+}

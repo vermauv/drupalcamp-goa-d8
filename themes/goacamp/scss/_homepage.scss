@@ -1,0 +1,20 @@
+[id*="aboutthecamp"] {
+    position: relative;
+    padding: 5em 0 5em 5em;
+    color: $white;
+    background: url("../images/about_bg.png") scroll 0 0 transparent;
+    box-sizing: border-box;
+    background-size: cover;
+    h1 {
+        margin-top: 0;
+    }
+    p {
+        max-width: 550px;
+    }
+    img {
+        max-width: 400px;
+        position: absolute;
+        top: -70px;
+        right: 0;
+    }
+}
