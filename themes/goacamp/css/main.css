@@ -10,11 +10,6 @@ a {
   text-decoration: none;
   color: #207DCC; }
 
-ul.menu {
-  list-style: none;
-  display: -ms-flexbox;
-  display: flex; }
-
 @font-face {
   font-family: 'Raleway-Bold';
   src: url("../fonts/Raleway-Bold.ttf") format("truetype");
@@ -50,6 +45,20 @@ ul.menu {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Rockwell-regular';
+  src: url("../fonts/rockwell-regular.ttf") format("truetype");
+  src: url("../fonts/rockwell-regular.otf") format("opentype"), url("../fonts/rockwell-regular.woff") format("woff"), url("../fonts/rockwell-regular.svg#Raleway-Thin") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Rockwell-bold';
+  src: url("../fonts/rockwell-bold.ttf") format("truetype");
+  src: url("../fonts/rockwell-bold.otf") format("opentype"), url("../fonts/rockwell-bold.woff") format("woff"), url("../fonts/rockwell-bold.svg#Raleway-Thin") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 [id*="aboutthecamp"] {
   position: relative;
   padding: 5em 0 5em 5em;
@@ -58,11 +67,20 @@ ul.menu {
   box-sizing: border-box;
   background-size: cover; }
 
-[id*="aboutthecamp"] h1 {
-  margin-top: 0; }
+[id*="aboutthecamp"] h2 {
+  margin-top: 0;
+  font-family: "Rockwell-regular";
+  font-size: 24px; }
+
+[id*="aboutthecamp"] strong {
+  font-family: "Raleway-Regular";
+  font-size: 14px; }
 
 [id*="aboutthecamp"] p {
-  max-width: 550px; }
+  max-width: 550px;
+  font-size: 14px;
+  font-family: "Raleway-Thin";
+  line-height: 1.4; }
 
 [id*="aboutthecamp"] img {
   max-width: 400px;
@@ -70,21 +88,13 @@ ul.menu {
   top: -70px;
   right: 0; }
 
-.region-header {
+ul.menu {
+  list-style: none;
   display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  position: relative; }
+  display: flex; }
 
-.page-wrapper {
-  max-width: 1280px;
-  width: 100%; }
-
-.header {
-  padding: 15px;
-  min-height: 500px;
-  background: url("../images/banner.png") no-repeat scroll 0 0 transparent; }
+ul.menu a {
+  font-family: "Rockwell-regular"; }
 
 .menu--main {
   display: -ms-flexbox;
@@ -99,6 +109,24 @@ ul.menu {
   flex-direction: row;
   margin: 0; }
 
+.menu--main a {
+  text-transform: uppercase; }
+
+.region-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative; }
+
+.page-wrapper {
+  max-width: 1280px;
+  width: 100%; }
+
+.header {
+  padding: 15px;
+  min-height: 500px; }
+
 .block-system-branding-block {
   display: -ms-flexbox;
   display: flex;
@@ -109,7 +137,39 @@ ul.menu {
   position: absolute;
   right: 0; }
 
+.header {
+  background: url("../images/banner.png") no-repeat scroll 0 0 transparent;
+  background-size: cover; }
+
 ul li {
-  margin-right: 1em; }
+  margin-right: 1.4em; }
+
+.region-header-bottom {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 2em auto;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+
+.region-header-bottom .field--name-body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.region-header-bottom .field--name-body a {
+  margin-top: 0.7em;
+  background: url("../images/register_now.svg") no-repeat scroll 0 0 transparent;
+  color: transparent;
+  font-size: 2.5em;
+  width: 140px; }
 
 /*# sourceMappingURL=main.css.map */

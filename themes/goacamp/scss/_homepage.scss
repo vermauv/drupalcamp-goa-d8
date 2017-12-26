@@ -5,11 +5,20 @@
     background: url("../images/about_bg.png") scroll 0 0 transparent;
     box-sizing: border-box;
     background-size: cover;
-    h1 {
+    h2 {
         margin-top: 0;
+        font-family: $rockwell-regular;
+        font-size: 24px;
+    }
+    strong {
+        font-family: $raleway-regular;
+        font-size: 14px;
     }
     p {
         max-width: 550px;
+        font-size: 14px;
+        font-family: $raleway-thin;
+        line-height: 1.4;
     }
     img {
         max-width: 400px;
