@@ -26,4 +26,13 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
+  field_are_you_a_speaker: true
+  field_bio: true
+  field_drupal_org_profile: true
+  field_first_name: true
+  field_job_title: true
+  field_last_name: true
+  field_organisation_institution: true
+  field_past_experience: true
+  field_tshirt_size: true
   member_for: true
