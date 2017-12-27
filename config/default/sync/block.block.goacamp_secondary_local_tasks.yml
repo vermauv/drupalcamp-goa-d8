@@ -1,0 +1,22 @@
+uuid: 4404b21f-6130-4e7b-8936-89be92db2d24
+langcode: en
+status: true
+dependencies:
+  theme:
+    - goacamp
+_core:
+  default_config_hash: QeZBeCilQfeET3GeW6ZtJkEiwROADTZktFgKWwPieD4
+id: goacamp_secondary_local_tasks
+theme: goacamp
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

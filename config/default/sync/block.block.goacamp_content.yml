@@ -1,0 +1,22 @@
+uuid: fc4c2dc5-f649-4d77-b954-a85d0f006e66
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - goacamp
+_core:
+  default_config_hash: YRY68JWkaUiGeZlWMv1nzeIgDm0ZZwXYgpqUpLFzwAY
+id: goacamp_content
+theme: goacamp
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

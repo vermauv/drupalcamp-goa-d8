@@ -1,0 +1,22 @@
+uuid: 61b0fb5a-03f7-43b0-a286-99359d7b64e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - goacamp
+_core:
+  default_config_hash: NU5A_49mwLHfs5xFzMFrZ850w9pgUolxMS9NNF3vv4c
+id: goacamp_help
+theme: goacamp
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
