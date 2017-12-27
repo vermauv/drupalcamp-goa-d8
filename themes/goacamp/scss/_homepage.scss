@@ -1,6 +1,6 @@
 [id*="aboutthecamp"] {
     position: relative;
-    padding: 5em 0 5em 5em;
+    padding: 8em 0 8em 5em;
     color: $white;
     background: url("../images/about_bg.png") scroll 0 0 transparent;
     box-sizing: border-box;
@@ -8,20 +8,33 @@
     h2 {
         margin-top: 0;
         font-family: $rockwell-regular;
-        font-size: 24px;
+        font-size: 34px;
+        margin-bottom: 0;
     }
     strong {
         font-family: $raleway-regular;
-        font-size: 14px;
+        font-size: 13px;
     }
     p {
         max-width: 550px;
-        font-size: 14px;
+        font-size: 13px;
         font-family: $raleway-thin;
         line-height: 1.4;
     }
+    a {
+        border: 1px solid $white;
+        color: $white;
+        text-transform: uppercase;
+        font-family: $raleway-bold;
+        margin-top: 1em;
+        letter-spacing: 0.6px;
+        display: inline-block;
+        padding: 0.6em 18px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
     img {
-        max-width: 400px;
+        max-width: 340px;
         position: absolute;
         top: -70px;
         right: 0;
