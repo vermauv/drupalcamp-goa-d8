@@ -6,7 +6,7 @@ _core:
   default_config_hash: KUjJ8Ti_ZJSlhGM88E_mhJP-8mmQRNUB6RFof615Kt0
 name: 'Restricted HTML'
 format: restricted_html
-weight: 0
+weight: -8
 filters:
   filter_html:
     id: filter_html
@@ -23,10 +23,21 @@ filters:
     status: true
     weight: 0
     settings: {  }
-  filter_url:
-    id: filter_url
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
     provider: filter
     status: true
-    weight: 0
-    settings:
-      filter_url_length: 72
+    weight: 10
+    settings: {  }
+  filter_html_escape:
+    id: filter_html_escape
+    provider: filter
+    status: true
+    weight: -10
+    settings: {  }
+  filter_html_image_secure:
+    id: filter_html_image_secure
+    provider: filter
+    status: true
+    weight: 9
+    settings: {  }
