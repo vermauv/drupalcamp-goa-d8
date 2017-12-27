@@ -1,0 +1,42 @@
+
+.block-system-branding-block {
+    display: flex;
+    align-items: center;
+}
+
+.region-header {
+    .menu--account {
+        position: absolute;
+        right: 0;
+    }
+}
+
+.header {
+    background: url("../images/banner.png") no-repeat scroll 0 0 transparent;
+    background-size: cover;
+}
+
+ul {
+    li {
+        margin-right: 1.4em;
+    }
+}
+
+.region-header-bottom {
+    @include flex(row);
+    justify-content: center;
+    margin: 2em auto;
+    align-items: center;
+    align-content: center;
+    .field--name-body {
+        @include flex(column);
+        align-items: center;
+        a {
+            margin-top: 0.7em;
+            background: url("../images/register_now.svg") no-repeat scroll 0 0 transparent;
+            color: transparent;
+            font-size: 2.5em;
+            width: 140px;
+        }
+    }
+}

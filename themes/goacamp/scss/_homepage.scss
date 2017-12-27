@@ -1,0 +1,29 @@
+[id*="aboutthecamp"] {
+    position: relative;
+    padding: 5em 0 5em 5em;
+    color: $white;
+    background: url("../images/about_bg.png") scroll 0 0 transparent;
+    box-sizing: border-box;
+    background-size: cover;
+    h2 {
+        margin-top: 0;
+        font-family: $rockwell-regular;
+        font-size: 24px;
+    }
+    strong {
+        font-family: $raleway-regular;
+        font-size: 14px;
+    }
+    p {
+        max-width: 550px;
+        font-size: 14px;
+        font-family: $raleway-thin;
+        line-height: 1.4;
+    }
+    img {
+        max-width: 400px;
+        position: absolute;
+        top: -70px;
+        right: 0;
+    }
+}

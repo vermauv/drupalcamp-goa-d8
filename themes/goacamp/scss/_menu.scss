@@ -1,0 +1,19 @@
+ul.menu {
+    list-style: none;
+    display: flex;
+    a {
+        font-family: $rockwell-regular;
+    }
+}
+
+.menu--main {
+    display: flex;
+    align-items: center;
+    .menu {
+        @include flex(row);
+        margin: 0;
+    }
+    a {
+        text-transform: uppercase;
+    }
+}

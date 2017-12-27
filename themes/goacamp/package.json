@@ -1,0 +1,18 @@
+{
+  "name": "drupal_camp_goa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "author": "Srijan",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.12.0",
+    "gulp-watch": "^4.3.5",
+    "license": "0.0.1",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    }
+  }
+}
