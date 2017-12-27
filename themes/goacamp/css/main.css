@@ -61,7 +61,7 @@ a {
 
 [id*="aboutthecamp"] {
   position: relative;
-  padding: 5em 0 5em 5em;
+  padding: 8em 0 8em 5em;
   color: #FFFFFF;
   background: url("../images/about_bg.png") scroll 0 0 transparent;
   box-sizing: border-box;
@@ -70,20 +70,33 @@ a {
 [id*="aboutthecamp"] h2 {
   margin-top: 0;
   font-family: "Rockwell-regular";
-  font-size: 24px; }
+  font-size: 34px;
+  margin-bottom: 0; }
 
 [id*="aboutthecamp"] strong {
   font-family: "Raleway-Regular";
-  font-size: 14px; }
+  font-size: 13px; }
 
 [id*="aboutthecamp"] p {
   max-width: 550px;
-  font-size: 14px;
+  font-size: 13px;
   font-family: "Raleway-Thin";
   line-height: 1.4; }
 
+[id*="aboutthecamp"] a {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: "Raleway-Bold";
+  margin-top: 1em;
+  letter-spacing: 0.6px;
+  display: inline-block;
+  padding: 0.6em 18px;
+  border-radius: 5px;
+  font-size: 11px; }
+
 [id*="aboutthecamp"] img {
-  max-width: 400px;
+  max-width: 340px;
   position: absolute;
   top: -70px;
   right: 0; }
@@ -157,15 +170,16 @@ ul li {
   -ms-flex-line-pack: center;
   align-content: center; }
 
-.region-header-bottom .field--name-body {
+.region-header-bottom .field--name-body p {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  margin: 0; }
 
-.region-header-bottom .field--name-body a {
+.region-header-bottom .field--name-body p a {
   margin-top: 0.7em;
   background: url("../images/register_now.svg") no-repeat scroll 0 0 transparent;
   color: transparent;
