@@ -1,4 +1,4 @@
-uuid: 7b9c1e22-c6f0-4e38-be43-19f1e76657c9
+uuid: d9cbaeff-28c9-47d0-98cb-75360d35adc7
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: goacamp_messages
 theme: goacamp
 region: highlighted
-weight: 0
+weight: -6
 provider: null
 plugin: system_messages_block
 settings:

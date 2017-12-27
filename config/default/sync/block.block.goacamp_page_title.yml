@@ -1,4 +1,4 @@
-uuid: 59034de0-ae55-4ffb-9c27-1bddc59f3b43
+uuid: b4625e5c-eead-42ca-95f1-48696d3cd897
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: goacamp_page_title
 theme: goacamp
 region: header
-weight: -30
+weight: -4
 provider: null
 plugin: page_title_block
 settings:
