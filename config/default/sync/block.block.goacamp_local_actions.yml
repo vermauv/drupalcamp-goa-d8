@@ -1,0 +1,20 @@
+uuid: 5da92620-bb77-4053-881b-5a8eb6c8d208
+langcode: en
+status: true
+dependencies:
+  theme:
+    - goacamp
+_core:
+  default_config_hash: HHryZVJbeKi9WnuBGC8FOhBZmBnk2G1H6KxFuy-rC9A
+id: goacamp_local_actions
+theme: goacamp
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

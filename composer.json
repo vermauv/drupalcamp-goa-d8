@@ -17,7 +17,11 @@
         "drupal/workbench_moderation": "^1.2",
         "drupal/workbench": "^1.0",
         "drupal/field_permissions": "^1.0",
-        "drush/drush": "^8.1.15"
+        "drush/drush": "^8.1.15",
+        "drupal/default_content": "^1.0",
+        "drupal/devel": "^1.2",
+        "drupal/addtoany": "^1.8",
+        "drupal/pathauto": "^1.0"
     },
     "replace": {
         "drupal/core": "^8.4"

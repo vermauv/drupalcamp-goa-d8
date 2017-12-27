@@ -1,0 +1,22 @@
+uuid: 863b3985-123a-4cc7-b986-1a13cda60341
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - goacamp
+_core:
+  default_config_hash: IItlF4SKHgxduIysVQdvirDJ_v3HGuAviOkidAOJYRE
+id: goacamp_login
+theme: goacamp
+region: content
+weight: 10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

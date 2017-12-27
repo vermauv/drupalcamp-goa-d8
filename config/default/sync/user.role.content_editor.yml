@@ -49,7 +49,6 @@ permissions:
   - 'revert session revisions'
   - 'skip comment approval'
   - 'use text format full_html'
-  - 'use text format restricted_html'
   - 'view article revisions'
   - 'view field_gallery_image'
   - 'view gallery revisions'
