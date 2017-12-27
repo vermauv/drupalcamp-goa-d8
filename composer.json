@@ -21,7 +21,8 @@
         "drupal/default_content": "^1.0",
         "drupal/devel": "^1.2",
         "drupal/addtoany": "^1.8",
-        "drupal/pathauto": "^1.0"
+        "drupal/pathauto": "^1.0",
+        "drupal/share_everywhere": "^1.1"
     },
     "replace": {
         "drupal/core": "^8.4"
