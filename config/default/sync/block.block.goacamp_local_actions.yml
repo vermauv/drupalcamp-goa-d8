@@ -1,4 +1,4 @@
-uuid: 5da92620-bb77-4053-881b-5a8eb6c8d208
+uuid: dbc71a4f-a837-4fe3-86ac-6053f3085ec1
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: goacamp_local_actions
 theme: goacamp
 region: content
-weight: -10
+weight: -6
 provider: null
 plugin: local_actions_block
 settings:

@@ -1,0 +1,24 @@
+uuid: ac9c4d1b-4b9f-4b96-a1f7-648843382012
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - goacamp
+id: mainnavigation
+theme: goacamp
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

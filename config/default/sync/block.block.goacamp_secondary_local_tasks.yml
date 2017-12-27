@@ -1,4 +1,4 @@
-uuid: 4404b21f-6130-4e7b-8936-89be92db2d24
+uuid: b368ce3b-7754-4ac1-9fe7-7e3ccd4e4a9d
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: goacamp_secondary_local_tasks
 theme: goacamp
 region: header
-weight: 0
+weight: -1
 provider: null
 plugin: local_tasks_block
 settings:

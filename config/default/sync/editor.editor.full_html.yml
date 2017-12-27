@@ -51,15 +51,13 @@ settings:
             - ShowBlocks
             - Source
   plugins:
-    language:
-      language_list: un
     stylescombo:
       styles: ''
 image_upload:
   status: true
   scheme: public
   directory: inline-images
-  max_size: '5 MB'
+  max_size: ''
   max_dimensions:
-    width: null
-    height: null
+    width: 0
+    height: 0

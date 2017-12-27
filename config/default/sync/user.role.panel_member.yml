@@ -13,5 +13,4 @@ permissions:
   - 'edit own comments'
   - 'post comments'
   - 'skip comment approval'
-  - 'use text format full_html'
   - 'view the administration theme'

@@ -1,4 +1,4 @@
-uuid: 863b3985-123a-4cc7-b986-1a13cda60341
+uuid: af2804a3-dd18-4db0-bcf5-f69b99e7297a
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: goacamp_login
 theme: goacamp
 region: content
-weight: 10
+weight: -6
 provider: null
 plugin: user_login_block
 settings:
