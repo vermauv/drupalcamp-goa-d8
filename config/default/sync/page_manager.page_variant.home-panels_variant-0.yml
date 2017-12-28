@@ -1,0 +1,65 @@
+uuid: 3d74aedd-1cb2-431d-a0eb-eed3e25a7676
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.home
+    - views.view.news_and_updates
+    - views.view.session_tracks
+    - views.view.spronsors
+  module:
+    - panels
+    - views
+id: home-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    7a2c4c40-2976-40a8-800d-3ba2a9b5ca21:
+      id: 'views_block:news_and_updates-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 7a2c4c40-2976-40a8-800d-3ba2a9b5ca21
+      context_mapping: {  }
+    36e187e5-d27f-4d22-82b9-2196250a7a05:
+      id: 'views_block:session_tracks-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 36e187e5-d27f-4d22-82b9-2196250a7a05
+      context_mapping: {  }
+    2db3403b-d4a5-49e9-8842-392fee10eb36:
+      id: 'views_block:spronsors-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 2db3403b-d4a5-49e9-8842-392fee10eb36
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 01521404-c82b-46a8-a017-717bfe1d84b1
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: home-panels_variant-0
+  builder: standard
+page: home
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

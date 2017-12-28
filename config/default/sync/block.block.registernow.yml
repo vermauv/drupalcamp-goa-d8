@@ -2,10 +2,6 @@ uuid: 67961ab8-9c50-4fcf-9e74-9578d721393d
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:bcd95b70-cd97-45f6-8dc6-78a85e36aeb1'
-  module:
-    - block_content
   theme:
     - goacamp
 id: registernow
@@ -17,7 +13,7 @@ plugin: 'block_content:bcd95b70-cd97-45f6-8dc6-78a85e36aeb1'
 settings:
   id: 'block_content:bcd95b70-cd97-45f6-8dc6-78a85e36aeb1'
   label: 'Register Now'
-  provider: block_content
+  provider: core
   label_display: '0'
   status: true
   info: ''

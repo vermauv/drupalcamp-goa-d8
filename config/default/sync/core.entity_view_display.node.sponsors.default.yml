@@ -6,10 +6,9 @@ dependencies:
     - field.field.node.sponsors.body
     - field.field.node.sponsors.field_sponsorship_category
     - field.field.node.sponsors.field_sponsorship_image
-    - image.style.large
     - node.type.sponsors
   module:
-    - colorbox
+    - image
     - text
     - user
 id: node.sponsors.default
@@ -36,15 +35,10 @@ content:
     weight: 103
     label: hidden
     settings:
-      colorbox_node_style: large
-      colorbox_node_style_first: large
-      colorbox_image_style: ''
-      colorbox_gallery: field_post
-      colorbox_gallery_custom: ''
-      colorbox_caption: auto
-      colorbox_caption_custom: ''
+      image_style: ''
+      image_link: ''
     third_party_settings: {  }
-    type: colorbox
+    type: image
     region: content
   links:
     weight: 100
