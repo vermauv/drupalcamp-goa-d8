@@ -4,6 +4,6 @@ status: true
 dependencies: {  }
 name: Prerequisites
 vid: prerequisites
-description: ''
+description: Prerequisites
 hierarchy: 0
 weight: 0

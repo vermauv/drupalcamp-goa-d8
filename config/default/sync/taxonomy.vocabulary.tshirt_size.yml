@@ -4,6 +4,6 @@ status: true
 dependencies: {  }
 name: 'TShirt Size'
 vid: tshirt_size
-description: ''
+description: 'Size for T-Shirts'
 hierarchy: 0
 weight: 0

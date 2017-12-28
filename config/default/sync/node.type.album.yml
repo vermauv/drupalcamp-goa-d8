@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Album
 type: album
-description: ''
+description: 'Content type to show images'
 help: ''
 new_revision: false
 preview_mode: 1

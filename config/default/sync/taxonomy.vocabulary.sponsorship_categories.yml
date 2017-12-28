@@ -4,6 +4,6 @@ status: true
 dependencies: {  }
 name: 'Sponsorship Categories'
 vid: sponsorship_categories
-description: ''
+description: 'Categories for Sponsors'
 hierarchy: 0
 weight: 0

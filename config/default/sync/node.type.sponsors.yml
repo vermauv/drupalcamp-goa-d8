@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Sponsors
 type: sponsors
-description: ''
+description: 'Sponsors of the Camps'
 help: ''
 new_revision: false
 preview_mode: 1

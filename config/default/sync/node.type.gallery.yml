@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Gallery
 type: gallery
-description: ''
+description: 'Content type to manage images for Camp'
 help: ''
 new_revision: false
 preview_mode: 1
